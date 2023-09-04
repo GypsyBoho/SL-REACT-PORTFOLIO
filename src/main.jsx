@@ -1,16 +1,17 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import Home from './components/pages/Home.jsx'
-import About from './components/pages/About.jsx'
-import Contact from './components/pages/Contact.jsx'
-import Portfolio from './components/pages/Portfolio.jsx'
-import Resume from './components/pages/Resume.jsx'
-import Error from './components/pages/Error.jsx'
+// import React from 'react'
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
+import About from './pages/About.jsx';
+import Portfolio from './pages/Portfolio.jsx';
+import Resume from './pages/Resume.jsx';
+import Contact from './pages/Contact.jsx';
+import Error from './pages/Error.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 // import './index.css'
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <About />,
+        exact: true,
       },
       {
         path: '/portfolio',
@@ -39,8 +41,4 @@ const router = createBrowserRouter([
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+ReactDOM.createRoot(document.getElementById('root')).render(<RouterProvider router={router} />);

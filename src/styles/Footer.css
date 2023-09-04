@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer i {
+    color:black
+}
+
+.footer i:hover {
+    color:cadetblue
+}

@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+}
+.box {
+    padding-top: 100px;
+    /* justify-content: center; */
+}
+.image-box {
+    max-width: 400px;
+    height: auto;
+}
