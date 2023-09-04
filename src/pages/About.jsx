@@ -1,5 +1,6 @@
 // import aboutImage from "../assets/head_shot_sml_v3.jpeg"
 import '../styles/About.css';
+
 function About() {
   return (
     <div className='about'>

@@ -6,11 +6,11 @@ function Header() {
             <div className='container'>
                 <div className='row'>
                     <div className='col-md-12'>
-                        <img src="/sl-color-logo.jpeg" alt='name logo' className="image-box" />
+                        <img src="src/assets/sl-color-logo.jpeg" alt='name logo' className="image-box" />
                     </div>
                 </div>
             </div>
         </div>
     );
 }
-export default Header
+export default Header;
