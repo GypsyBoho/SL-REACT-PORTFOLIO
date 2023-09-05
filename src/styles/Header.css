@@ -1,9 +1,8 @@
-.container {
+.header {
     display: flex;
-    justify-content: left;
-    max-width: 800px;
+    justify-content: flex-end;
 }
-/* .image-box {
-    max-width: 400px;
+.logo-box {
+    max-width: 200px;
     height: auto;
-} */
+}

@@ -5,8 +5,8 @@ function Header() {
         <div className='header'>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-md-12'>
-                        <img src="src/assets/sl-color-logo.jpeg" alt='name logo' className="image-box" />
+                    <div>
+                        <img src="src/assets/sl-color-logo.jpeg" className="float-right logo-box" alt='name logo' />
                     </div>
                 </div>
             </div>
