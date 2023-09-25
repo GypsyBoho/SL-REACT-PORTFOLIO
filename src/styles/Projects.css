@@ -1,0 +1,16 @@
+/* Style the project items */
+.project-item {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    /* Add spacing between items if desired */
+}
+
+/* Create a 2x2 grid */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columns with equal width */
+    gap: 10px;
+    /* Add spacing between columns and rows if desired */
+}

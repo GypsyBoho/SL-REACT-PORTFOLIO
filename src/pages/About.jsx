@@ -1,5 +1,6 @@
 // import aboutImage from "../assets/head_shot_sml_v3.jpeg"
-import '../styles/About.css';
+// import '../styles/About.css';
+import resume from '../assets/slenorovitz-resume.pdf';
 
 function About() {
   return (
@@ -12,14 +13,14 @@ function About() {
           <div className='col-md-8 '>
             <h1>Hi I'm Stephanie Lenorovitz</h1>
             <p>
-              Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-              Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-              mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-              lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-              imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-              in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+              I’m a Full Stack User Experience developer with 8 plus years of design experience, working and consulting for large corporations, startups, e-commerce and consumer brands. I’ve worked for the likes of Ancestry, Apple, Uniqlo, Wal-Mart, NIH among others. With a background in marketing, advertising and graphic design for digital and print platforms. With a well rounded skill set in design and development, I strive to create easy to use and engaging online experiences.
             </p>
           </div>
+          <button className='resume'>
+            <a href={resume} download="slenorovitz-resume.pdf">
+              resume
+            </a>
+          </button>
         </div>
       </div>
     </div>

@@ -1,10 +1,11 @@
-import Project from '../components/Project'
+// import { CodeIcon } from "@heroicons/react/solid";
+// import React from "react";
+import Projects from '../components/Projects'
 
 function Portfolio() {
     return (
         <div>
-            <h2>Portfolio</h2>
-            <Project />
+            <Projects />
         </div>
     )
 }
