@@ -4,7 +4,7 @@
           
 This is my work in progress react portfolio, I will constantly be updating a tweaking it. Feel free to take a look at my resume and reach out via the contact form if you want to collaborate.
 
-![image](./assets/imgsvglogo.png)
+![image](./assets/imgOfWebsite.png.png)
 
 ##Technologies
 
