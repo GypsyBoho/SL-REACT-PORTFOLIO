@@ -65,25 +65,28 @@ function ContactForm() {
             <form className='form' onSubmit={handleFormSubmit}>
                 <div className='row'>
                     <h2>{firstName}, get in touch with me</h2>
-                    <div className='col'>
-                        <input
-                            value={firstName}
-                            name='firstName'
-                            onChange={handleInputChange}
-                            type='text'
-                            placeholder='First Name'
-                        />
                     </div>
-                    <div className='col'>
-                        <input
-                            value={lastName}
-                            name='lastName'
-                            onChange={handleInputChange}
-                            type='text'
-                            placeholder='Last Name'
-                        />
+                    <div className='row'>
+                        <div className='col'>
+                            <input
+                                value={firstName}
+                                name='firstName'
+                                onChange={handleInputChange}
+                                type='text'
+                                placeholder='First Name'
+                            />
+                        </div>
+                        <div className='col'>
+                            <input
+                                value={lastName}
+                                name='lastName'
+                                onChange={handleInputChange}
+                                type='text'
+                                placeholder='Last Name'
+                            />
+                        </div>
                     </div>
-                </div>
+                
                 <input
                     value={email}
                     name='email'

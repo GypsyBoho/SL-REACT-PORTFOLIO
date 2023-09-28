@@ -1,13 +1,14 @@
-.container {
+/* .container {
     display: flex;
     justify-content: center;
     max-width: 800px;
-}
-.box {
+} */
+/* .box {
     padding-top: 100px;
-    /* justify-content: center; */
-}
-.image-box {
-    max-width: 400px;
-    height: auto;
+    justify-content: center;
+} */
+.profile-image {
+    width: 400px;
+    max-height: auto;
+    overflow: hidden;
 }

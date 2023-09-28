@@ -1,8 +1,22 @@
-# React + Vite
+# Stephanie Lenorovitz React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+          
+This is my work in progress react portfolio, I will constantly be updating a tweaking it. Feel free to take a look at my resume and reach out via the contact form if you want to collaborate.
 
-Currently, two official plugins are available:
+![image](./assets/imgsvglogo.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##Technologies
+
+- React
+- Node.js
+- vite
+- jsx
+
+
+## Questions
+
+For any issues, please contact me at:
+slenorovitz@gmail.com
+<br>
+Or check out my Github page https://github.com/GypsyBoho
